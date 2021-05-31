@@ -1,0 +1,6 @@
+Code pertama akan melihat semua file yang ada di directory(harap diganti sesuai kebutuhan) dan melist semua filenya di dalam array
+selanjutnya akan code akan melooping untuk setiap file dari listfile 
+lalu code akan melihat isi filenya dengan scanner dan selama isi dari scanner tidak kosong loop untuk membaca akan terus berjalan dan setiap line yang dibaca akan ditambahkan ke stringbuffer
+string buffer nanti akan diprint di terminal setelah diconvert menjadi string
+
+catatan: baru dicoba untuk file dengan format txt
