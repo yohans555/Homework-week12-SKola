@@ -1,0 +1,10 @@
+ada 2 library yang harus diimport telerbih dahulu yaitu :
+
+connection driver ke database, 
+compile group: 'org.apache.commons', name: 'commons-csv', version: '1.8'
+dan  Apache Commons CSV jar bisa didownload disni commons.apache.org 
+
+
+pada tugas ini saya menggunakan CSV parser untuk me parse CSV file dari link lalu dengan CSV reccord dapat mengakses datanya.
+dengan menggubakan JBDC dan prepared statement untuk insert saya memasukan lakukan loop untuk semua data yang di dapat di CSV parser dan memasukannya ke database yang sudah saya buat koneksinya.
+dengan catatan database sudah dibuat sebelumnya dan tabel juga sudah dibuat beserta kolom yang diperlukan.
